@@ -92,3 +92,12 @@ main {
  font-weight: 500px;
  text-shadow: rgba(0, 0, 0, 0.4);
 }
+
+@media (max-width: 900px){
+    .app-wrap {
+        grid-template-columns:100%;
+    }
+    .main {
+        margin-top: 50px;
+    }
+}
